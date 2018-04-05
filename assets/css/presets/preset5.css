@@ -10,7 +10,88 @@ Tags: two-columns,left-sidebar, right-sidebar, custom-background, custom-header,
 Description: Beoreo is a fully configurable and easy to use responsive WordPress Theme  with a lot of great features.
 Text Domain: beoreo
 */
-
+/* SCREEN */
+/* COLOR */
+/*#FF2B42*/
+/* ANIMATION */
+/* TYPOGRAPHY */
+/*
+* Component module
+*/
+/* + TYPOGRAPHY */
+/* + COLOR */
+/* + INPUT */
+/* + ICON */
+/* + BUTTON */
+/* + UTILITIES */
+/* + SECTION */
+/*
+* Common module
+*/
+/* + RESERVATION AND CONTACT */
+/*
+* Module
+*/
+/* + HEADER */
+/* + FOOTER */
+/* + TEAM */
+/* + SERVICE */
+/* + MEMBERSHIP */
+/* + TESTIMONIAL */
+/* + HOME */
+/* + ABOUT */
+/* + SHOP */
+/* + SPACE */
+/* + ADVERTISE */
+/* + BLOG */
+/* + OTHER PAGE */
+/*
+* Component module
+*/
+/* TYPOGRAPHY */
+/* COLOR */
+/* INPUT */
+/* ICON */
+/* BUTTON */
+/* UTILITIES */
+/* Reset */
+/* SECTION */
+/*
+* Module
+*/
+/* HEADER */
+/* FOOTER */
+/* SERVICE */
+/* BLOG */
+/* PORTFOLIO */
+/* TEAM */
+/* TESTIMONIAL */
+/* TESTIMONIAL */
+/* + SHOP */
+/* ANIMATION */
+/* DIV */
+/*!
+ * jQuery UI CSS Framework 1.11.3
+ * http://jqueryui.com
+ *
+ * Copyright jQuery Foundation and other contributors
+ * Released under the MIT license.
+ * http://jquery.org/license
+ *
+ * http://api.jqueryui.com/category/theming/
+ *
+ * To view and modify this theme, visit http://jqueryui.com/themeroller/?ffDefault=Lucida%20Grande%2CLucida%20Sans%2CArial%2Csans-serif&fwDefault=bold&fsDefault=1.1em&cornerRadius=5px&bgColorHeader=5c9ccc&bgTextureHeader=gloss_wave&bgImgOpacityHeader=55&borderColorHeader=4297d7&fcHeader=ffffff&iconColorHeader=d8e7f3&bgColorContent=fcfdfd&bgTextureContent=inset_hard&bgImgOpacityContent=100&borderColorContent=a6c9e2&fcContent=222222&iconColorContent=469bdd&bgColorDefault=dfeffc&bgTextureDefault=glass&bgImgOpacityDefault=85&borderColorDefault=c5dbec&fcDefault=2e6e9e&iconColorDefault=6da8d5&bgColorHover=d0e5f5&bgTextureHover=glass&bgImgOpacityHover=75&borderColorHover=79b7e7&fcHover=1d5987&iconColorHover=217bc0&bgColorActive=f5f8f9&bgTextureActive=inset_hard&bgImgOpacityActive=100&borderColorActive=79b7e7&fcActive=e17009&iconColorActive=f9bd01&bgColorHighlight=fbec88&bgTextureHighlight=flat&bgImgOpacityHighlight=55&borderColorHighlight=fad42e&fcHighlight=363636&iconColorHighlight=2e83ff&bgColorError=fef1ec&bgTextureError=glass&bgImgOpacityError=95&borderColorError=cd0a0a&fcError=cd0a0a&iconColorError=cd0a0a&bgColorOverlay=aaaaaa&bgTextureOverlay=flat&bgImgOpacityOverlay=0&opacityOverlay=30&bgColorShadow=aaaaaa&bgTextureShadow=flat&bgImgOpacityShadow=0&opacityShadow=30&thicknessShadow=8px&offsetTopShadow=-8px&offsetLeftShadow=-8px&cornerRadiusShadow=8px
+ */
+/* Component containers
+----------------------------------*/
+/* Interaction states
+----------------------------------*/
+/* Interaction Cues
+----------------------------------*/
+/* Overlays */
+/* with multiple calendars */
+/* RTL support */
+/*Comment Form*/
 .easing-animation {
   -wekbit-transition:all 0.4s;
   -moz-transition:all 0.4s;
@@ -5842,6 +5923,17 @@ body .lg-dynamics-modal-wrap .lg-dynamics-modal-inner .lg-dynamics-modal-detail 
     margin-top:6px;
   }
   .bt-header-v1 .bt-menu-list > ul > li.menu-item-has-children.mega-menu-item > ul > li .widget.widget_products .product_list_widget > li > a .product-title:hover, .bt-header-v2 .bt-menu-list > ul > li.menu-item-has-children.mega-menu-item > ul > li .widget.widget_products .product_list_widget > li > a .product-title:hover, .bt-header-v3 .bt-menu-list > ul > li.menu-item-has-children.mega-menu-item > ul > li .widget.widget_products .product_list_widget > li > a .product-title:hover, .bt-header-v4 .bt-menu-list > ul > li.menu-item-has-children.mega-menu-item > ul > li .widget.widget_products .product_list_widget > li > a .product-title:hover, .bt-header-v5 .bt-menu-list > ul > li.menu-item-has-children.mega-menu-item > ul > li .widget.widget_products .product_list_widget > li > a .product-title:hover, .bt-header-v6 .bt-menu-list > ul > li.menu-item-has-children.mega-menu-item > ul > li .widget.widget_products .product_list_widget > li > a .product-title:hover { color:#A5B800; }
+  .bt-header-v1 .bt-menu-list > ul > li.menu-item-has-children.mega-menu-item > ul > li .widget.widget_products .product_list_widget > li .star-rating, .bt-header-v2 .bt-menu-list > ul > li.menu-item-has-children.mega-menu-item > ul > li .widget.widget_products .product_list_widget > li .star-rating, .bt-header-v3 .bt-menu-list > ul > li.menu-item-has-children.mega-menu-item > ul > li .widget.widget_products .product_list_widget > li .star-rating, .bt-header-v4 .bt-menu-list > ul > li.menu-item-has-children.mega-menu-item > ul > li .widget.widget_products .product_list_widget > li .star-rating, .bt-header-v5 .bt-menu-list > ul > li.menu-item-has-children.mega-menu-item > ul > li .widget.widget_products .product_list_widget > li .star-rating, .bt-header-v6 .bt-menu-list > ul > li.menu-item-has-children.mega-menu-item > ul > li .widget.widget_products .product_list_widget > li .star-rating {
+    font-size:11px;
+    line-height:10px;
+    color:#A5B800;
+    margin-top:10px;
+  }
+  .bt-header-v1 .bt-menu-list > ul > li.menu-item-has-children.mega-menu-item > ul > li .widget.widget_products .product_list_widget > li .star-rating[title="Rated 0 out of 5"]:before, .bt-header-v2 .bt-menu-list > ul > li.menu-item-has-children.mega-menu-item > ul > li .widget.widget_products .product_list_widget > li .star-rating[title="Rated 0 out of 5"]:before, .bt-header-v3 .bt-menu-list > ul > li.menu-item-has-children.mega-menu-item > ul > li .widget.widget_products .product_list_widget > li .star-rating[title="Rated 0 out of 5"]:before, .bt-header-v4 .bt-menu-list > ul > li.menu-item-has-children.mega-menu-item > ul > li .widget.widget_products .product_list_widget > li .star-rating[title="Rated 0 out of 5"]:before, .bt-header-v5 .bt-menu-list > ul > li.menu-item-has-children.mega-menu-item > ul > li .widget.widget_products .product_list_widget > li .star-rating[title="Rated 0 out of 5"]:before, .bt-header-v6 .bt-menu-list > ul > li.menu-item-has-children.mega-menu-item > ul > li .widget.widget_products .product_list_widget > li .star-rating[title="Rated 0 out of 5"]:before {
+    color:#ececec;
+    opacity:0.3;
+  }
+  .bt-header-v1 .bt-menu-list > ul > li.menu-item-has-children.mega-menu-item > ul > li .widget.widget_products .product_list_widget > li .star-rating:before, .bt-header-v2 .bt-menu-list > ul > li.menu-item-has-children.mega-menu-item > ul > li .widget.widget_products .product_list_widget > li .star-rating:before, .bt-header-v3 .bt-menu-list > ul > li.menu-item-has-children.mega-menu-item > ul > li .widget.widget_products .product_list_widget > li .star-rating:before, .bt-header-v4 .bt-menu-list > ul > li.menu-item-has-children.mega-menu-item > ul > li .widget.widget_products .product_list_widget > li .star-rating:before, .bt-header-v5 .bt-menu-list > ul > li.menu-item-has-children.mega-menu-item > ul > li .widget.widget_products .product_list_widget > li .star-rating:before, .bt-header-v6 .bt-menu-list > ul > li.menu-item-has-children.mega-menu-item > ul > li .widget.widget_products .product_list_widget > li .star-rating:before { color:#A5B800; }
   .bt-header-v1 .bt-menu-list > ul > li.menu-item-has-children.mega-menu-item > ul > li .widget.widget_products .product_list_widget > li .amount, .bt-header-v2 .bt-menu-list > ul > li.menu-item-has-children.mega-menu-item > ul > li .widget.widget_products .product_list_widget > li .amount, .bt-header-v3 .bt-menu-list > ul > li.menu-item-has-children.mega-menu-item > ul > li .widget.widget_products .product_list_widget > li .amount, .bt-header-v4 .bt-menu-list > ul > li.menu-item-has-children.mega-menu-item > ul > li .widget.widget_products .product_list_widget > li .amount, .bt-header-v5 .bt-menu-list > ul > li.menu-item-has-children.mega-menu-item > ul > li .widget.widget_products .product_list_widget > li .amount, .bt-header-v6 .bt-menu-list > ul > li.menu-item-has-children.mega-menu-item > ul > li .widget.widget_products .product_list_widget > li .amount {
     font-family:Crimson Text;
     font-size:14px;
@@ -12705,6 +12797,14 @@ body .lg-dynamics-modal-wrap .lg-dynamics-modal-inner .lg-dynamics-modal-detail 
   margin:0 15px 0 0;
 }
 .sidebar-left .widget.widget_products ul > li > a:hover, .sidebar-right .widget.widget_products ul > li > a:hover { color:#A5B800; }
+.sidebar-left .widget.widget_products ul > li .star-rating, .sidebar-right .widget.widget_products ul > li .star-rating {
+  font-size:11px;
+  line-height:10px;
+  color:#A5B800;
+  margin:5px 0;
+}
+.sidebar-left .widget.widget_products ul > li .star-rating[title="Rated 0 out of 5"]:before, .sidebar-right .widget.widget_products ul > li .star-rating[title="Rated 0 out of 5"]:before { color:#ececec; }
+.sidebar-left .widget.widget_products ul > li .star-rating:before, .sidebar-right .widget.widget_products ul > li .star-rating:before { color:#A5B800; }
 .sidebar-left .widget.widget_products ul > li del:after, .sidebar-right .widget.widget_products ul > li del:after {
   content:"-";
   display:inline-block;
@@ -12713,11 +12813,11 @@ body .lg-dynamics-modal-wrap .lg-dynamics-modal-inner .lg-dynamics-modal-detail 
 .sidebar-left .widget.widget_products ul > li ins, .sidebar-right .widget.widget_products ul > li ins { text-decoration:none; }
 .sidebar-left .widget.widget_products ul > li .amount, .sidebar-right .widget.widget_products ul > li .amount {
   font-family:Crimson Text;
-  font-size:16px;
-  font-weight:400;
+  font-size:15px;
+  font-weight:600;
   font-style:italic;
   line-height:24px;
-  letter-spacing:0.06em;
+  letter-spacing:0.04em;
   color:#141414;
 }
 .sidebar-left .widget.widget_products ul > li:after, .sidebar-right .widget.widget_products ul > li:after {
@@ -19468,6 +19568,7 @@ body .lg-dynamics-modal-wrap .lg-dynamics-modal-inner .lg-dynamics-modal-detail 
   vertical-align:middle;
   width:40px;
   height:40px;
+  font-size:14px;
   line-height:40px;
   text-align:center;
   color:#1f1f1f;
@@ -19561,6 +19662,15 @@ body .lg-dynamics-modal-wrap .lg-dynamics-modal-inner .lg-dynamics-modal-detail 
   overflow:hidden;
   text-overflow:ellipsis;
   border:none;
+}
+.archive-product .row {
+  font-size:0;
+  letter-spacing:0;
+}
+.archive-product .grid {
+  float:none;
+  display:inline-block;
+  vertical-align:top;
 }
 .archive-product .grid .product { margin-bottom:30px; }
 .archive-product .grid .product .bt-thumb {
@@ -19948,6 +20058,7 @@ body .lg-dynamics-modal-wrap .lg-dynamics-modal-inner .lg-dynamics-modal-detail 
   vertical-align:middle;
   width:40px;
   height:40px;
+  font-size:14px;
   line-height:40px;
   text-align:center;
   color:#1f1f1f;
@@ -20083,7 +20194,8 @@ body .lg-dynamics-modal-wrap .lg-dynamics-modal-inner .lg-dynamics-modal-detail 
   border:1px solid #ececec;
 }
 .single-product .bt-product-item .bt-content .star-rating {
-  font-size:15px;
+  font-size:13px;
+  line-height:12px;
   color:#A5B800;
   float:none;
   margin-bottom:10px;
@@ -21248,7 +21360,7 @@ body .lg-dynamics-modal-wrap .lg-dynamics-modal-inner .lg-dynamics-modal-detail 
   font-size:14px;
   text-decoration:none;
 }
-.woocommerce-checkout .woocommerce #customer_details .woocommerce-billing-fields .form-row input, .woocommerce-checkout .woocommerce #customer_details .woocommerce-billing-fields .form-row select, .woocommerce-checkout .woocommerce #customer_details .woocommerce-billing-fields .form-row textarea, .woocommerce-checkout .woocommerce #customer_details .woocommerce-billing-fields .form-row .select2-container .select2-choice, .woocommerce-checkout .woocommerce #customer_details .woocommerce-shipping-fields .form-row input, .woocommerce-checkout .woocommerce #customer_details .woocommerce-shipping-fields .form-row select, .woocommerce-checkout .woocommerce #customer_details .woocommerce-shipping-fields .form-row textarea, .woocommerce-checkout .woocommerce #customer_details .woocommerce-shipping-fields .form-row .select2-container .select2-choice {
+.woocommerce-checkout .woocommerce #customer_details .woocommerce-billing-fields .form-row input, .woocommerce-checkout .woocommerce #customer_details .woocommerce-billing-fields .form-row select, .woocommerce-checkout .woocommerce #customer_details .woocommerce-billing-fields .form-row textarea, .woocommerce-checkout .woocommerce #customer_details .woocommerce-billing-fields .form-row .select2-container .select2-choice, .woocommerce-checkout .woocommerce #customer_details .woocommerce-billing-fields .form-row .select2-container .select2-selection--single, .woocommerce-checkout .woocommerce #customer_details .woocommerce-shipping-fields .form-row input, .woocommerce-checkout .woocommerce #customer_details .woocommerce-shipping-fields .form-row select, .woocommerce-checkout .woocommerce #customer_details .woocommerce-shipping-fields .form-row textarea, .woocommerce-checkout .woocommerce #customer_details .woocommerce-shipping-fields .form-row .select2-container .select2-choice, .woocommerce-checkout .woocommerce #customer_details .woocommerce-shipping-fields .form-row .select2-container .select2-selection--single {
   font-size:14px;
   font-weight:400;
   font-style:italic;
@@ -21261,7 +21373,12 @@ body .lg-dynamics-modal-wrap .lg-dynamics-modal-inner .lg-dynamics-modal-detail 
   -moz-border-radius:0;
   border-radius:0;
 }
-.woocommerce-checkout .woocommerce #customer_details .woocommerce-billing-fields .form-row input:hover, .woocommerce-checkout .woocommerce #customer_details .woocommerce-billing-fields .form-row input:focus, .woocommerce-checkout .woocommerce #customer_details .woocommerce-billing-fields .form-row select:hover, .woocommerce-checkout .woocommerce #customer_details .woocommerce-billing-fields .form-row select:focus, .woocommerce-checkout .woocommerce #customer_details .woocommerce-billing-fields .form-row textarea:hover, .woocommerce-checkout .woocommerce #customer_details .woocommerce-billing-fields .form-row textarea:focus, .woocommerce-checkout .woocommerce #customer_details .woocommerce-billing-fields .form-row .select2-container .select2-choice:hover, .woocommerce-checkout .woocommerce #customer_details .woocommerce-billing-fields .form-row .select2-container .select2-choice:focus, .woocommerce-checkout .woocommerce #customer_details .woocommerce-shipping-fields .form-row input:hover, .woocommerce-checkout .woocommerce #customer_details .woocommerce-shipping-fields .form-row input:focus, .woocommerce-checkout .woocommerce #customer_details .woocommerce-shipping-fields .form-row select:hover, .woocommerce-checkout .woocommerce #customer_details .woocommerce-shipping-fields .form-row select:focus, .woocommerce-checkout .woocommerce #customer_details .woocommerce-shipping-fields .form-row textarea:hover, .woocommerce-checkout .woocommerce #customer_details .woocommerce-shipping-fields .form-row textarea:focus, .woocommerce-checkout .woocommerce #customer_details .woocommerce-shipping-fields .form-row .select2-container .select2-choice:hover, .woocommerce-checkout .woocommerce #customer_details .woocommerce-shipping-fields .form-row .select2-container .select2-choice:focus { border-color:#dedede; }
+.woocommerce-checkout .woocommerce #customer_details .woocommerce-billing-fields .form-row input:hover, .woocommerce-checkout .woocommerce #customer_details .woocommerce-billing-fields .form-row input:focus, .woocommerce-checkout .woocommerce #customer_details .woocommerce-billing-fields .form-row select:hover, .woocommerce-checkout .woocommerce #customer_details .woocommerce-billing-fields .form-row select:focus, .woocommerce-checkout .woocommerce #customer_details .woocommerce-billing-fields .form-row textarea:hover, .woocommerce-checkout .woocommerce #customer_details .woocommerce-billing-fields .form-row textarea:focus, .woocommerce-checkout .woocommerce #customer_details .woocommerce-billing-fields .form-row .select2-container .select2-choice:hover, .woocommerce-checkout .woocommerce #customer_details .woocommerce-billing-fields .form-row .select2-container .select2-choice:focus, .woocommerce-checkout .woocommerce #customer_details .woocommerce-billing-fields .form-row .select2-container .select2-selection--single:hover, .woocommerce-checkout .woocommerce #customer_details .woocommerce-billing-fields .form-row .select2-container .select2-selection--single:focus, .woocommerce-checkout .woocommerce #customer_details .woocommerce-shipping-fields .form-row input:hover, .woocommerce-checkout .woocommerce #customer_details .woocommerce-shipping-fields .form-row input:focus, .woocommerce-checkout .woocommerce #customer_details .woocommerce-shipping-fields .form-row select:hover, .woocommerce-checkout .woocommerce #customer_details .woocommerce-shipping-fields .form-row select:focus, .woocommerce-checkout .woocommerce #customer_details .woocommerce-shipping-fields .form-row textarea:hover, .woocommerce-checkout .woocommerce #customer_details .woocommerce-shipping-fields .form-row textarea:focus, .woocommerce-checkout .woocommerce #customer_details .woocommerce-shipping-fields .form-row .select2-container .select2-choice:hover, .woocommerce-checkout .woocommerce #customer_details .woocommerce-shipping-fields .form-row .select2-container .select2-choice:focus, .woocommerce-checkout .woocommerce #customer_details .woocommerce-shipping-fields .form-row .select2-container .select2-selection--single:hover, .woocommerce-checkout .woocommerce #customer_details .woocommerce-shipping-fields .form-row .select2-container .select2-selection--single:focus { border-color:#dedede; }
+.woocommerce-checkout .woocommerce #customer_details .woocommerce-billing-fields .form-row .select2-container .select2-selection--single, .woocommerce-checkout .woocommerce #customer_details .woocommerce-shipping-fields .form-row .select2-container .select2-selection--single { height:auto; }
+.woocommerce-checkout .woocommerce #customer_details .woocommerce-billing-fields .form-row .select2-container .select2-selection--single .select2-selection__arrow, .woocommerce-checkout .woocommerce #customer_details .woocommerce-shipping-fields .form-row .select2-container .select2-selection--single .select2-selection__arrow {
+  height:45px;
+  width:30px;
+}
 .woocommerce-checkout .woocommerce #customer_details .woocommerce-billing-fields .form-row.create-account, .woocommerce-checkout .woocommerce #customer_details .woocommerce-shipping-fields .form-row.create-account { margin-bottom:0; }
 .woocommerce-checkout .woocommerce #customer_details .woocommerce-billing-fields .form-row.create-account label, .woocommerce-checkout .woocommerce #customer_details .woocommerce-shipping-fields .form-row.create-account label {
   font-family:Lato;
