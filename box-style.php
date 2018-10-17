@@ -49,93 +49,93 @@
 						<?php
 						$homepages = array(
 							array(
-								'link' => 'http://theme.bearsthemes.com/wordpress/beoreo/home/home-version-01/',
-								'img' => 'http://theme.bearsthemes.com/wordpress/beoreo/wp-content/uploads/2016/02/home_demo1.jpg',
+								'link' => 'https://bearsthemespremium.com/theme/beoreo/home/home-version-01/',
+								'img' => 'https://bearsthemespremium.com/theme/beoreo/wp-content/uploads/2016/02/home_demo1.jpg',
 								'title' => 'Home Version 01'
 							),
 							array(
-								'link' => 'http://theme.bearsthemes.com/wordpress/beoreo/home/home-version-02/',
-								'img' => 'http://theme.bearsthemes.com/wordpress/beoreo/wp-content/uploads/2016/02/home_demo2.jpg',
+								'link' => 'https://bearsthemespremium.com/theme/beoreo/home/home-version-02/',
+								'img' => 'https://bearsthemespremium.com/theme/beoreo/wp-content/uploads/2016/02/home_demo2.jpg',
 								'title' => 'Home Version 02'
 							),
 							array(
-								'link' => 'http://theme.bearsthemes.com/wordpress/beoreo/home/home-version-03/',
-								'img' => 'http://theme.bearsthemes.com/wordpress/beoreo/wp-content/uploads/2016/02/home_demo3.jpg',
+								'link' => 'https://bearsthemespremium.com/theme/beoreo/home/home-version-03/',
+								'img' => 'https://bearsthemespremium.com/theme/beoreo/wp-content/uploads/2016/02/home_demo3.jpg',
 								'title' => 'Home Version 03'
 							),
 							array(
-								'link' => 'http://theme.bearsthemes.com/wordpress/beoreo/home/home-version-04/',
-								'img' => 'http://theme.bearsthemes.com/wordpress/beoreo/wp-content/uploads/2016/02/home_demo4.jpg',
+								'link' => 'https://bearsthemespremium.com/theme/beoreo/home/home-version-04/',
+								'img' => 'https://bearsthemespremium.com/theme/beoreo/wp-content/uploads/2016/02/home_demo4.jpg',
 								'title' => 'Home Version 04'
 							),
 							array(
-								'link' => 'http://theme.bearsthemes.com/wordpress/beoreo/home/home-version-05/',
-								'img' => 'http://theme.bearsthemes.com/wordpress/beoreo/wp-content/uploads/2016/02/home_demo5.jpg',
+								'link' => 'https://bearsthemespremium.com/theme/beoreo/home/home-version-05/',
+								'img' => 'https://bearsthemespremium.com/theme/beoreo/wp-content/uploads/2016/02/home_demo5.jpg',
 								'title' => 'Home Version 05'
 							),
 							array(
-								'link' => 'http://theme.bearsthemes.com/wordpress/beoreo/home/home-version-06/',
-								'img' => 'http://theme.bearsthemes.com/wordpress/beoreo/wp-content/uploads/2016/02/home_demo6.jpg',
+								'link' => 'https://bearsthemespremium.com/theme/beoreo/home/home-version-06/',
+								'img' => 'https://bearsthemespremium.com/theme/beoreo/wp-content/uploads/2016/02/home_demo6.jpg',
 								'title' => 'Home Version 06'
 							),
 							array(
-								'link' => 'http://theme.bearsthemes.com/wordpress/beoreo/home/home-version-07/',
-								'img' => 'http://theme.bearsthemes.com/wordpress/beoreo/wp-content/uploads/2016/02/home_demo7.jpg',
+								'link' => 'https://bearsthemespremium.com/theme/beoreo/home/home-version-07/',
+								'img' => 'https://bearsthemespremium.com/theme/beoreo/wp-content/uploads/2016/02/home_demo7.jpg',
 								'title' => 'Home Version 07'
 							),
 							array(
-								'link' => 'http://theme.bearsthemes.com/wordpress/beoreo/home/home-version-08/',
-								'img' => 'http://theme.bearsthemes.com/wordpress/beoreo/wp-content/uploads/2016/02/home_demo8.jpg',
+								'link' => 'https://bearsthemespremium.com/theme/beoreo/home/home-version-08/',
+								'img' => 'https://bearsthemespremium.com/theme/beoreo/wp-content/uploads/2016/02/home_demo8.jpg',
 								'title' => 'Home Version 08'
 							),
 							array(
-								'link' => 'http://theme.bearsthemes.com/wordpress/beoreo/home/home-version-09/',
-								'img' => 'http://theme.bearsthemes.com/wordpress/beoreo/wp-content/uploads/2016/02/home_demo9.jpg',
+								'link' => 'https://bearsthemespremium.com/theme/beoreo/home/home-version-09/',
+								'img' => 'https://bearsthemespremium.com/theme/beoreo/wp-content/uploads/2016/02/home_demo9.jpg',
 								'title' => 'Home Version 09'
 							),
 							array(
-								'link' => 'http://theme.bearsthemes.com/wordpress/beoreo/home/home-version-10/',
-								'img' => 'http://theme.bearsthemes.com/wordpress/beoreo/wp-content/uploads/2016/02/home_demo10.jpg',
+								'link' => 'https://bearsthemespremium.com/theme/beoreo/home/home-version-10/',
+								'img' => 'https://bearsthemespremium.com/theme/beoreo/wp-content/uploads/2016/02/home_demo10.jpg',
 								'title' => 'Home Version 10'
 							),
 							array(
-								'link' => 'http://theme.bearsthemes.com/wordpress/beoreo/home/home-version-11/',
-								'img' => 'http://theme.bearsthemes.com/wordpress/beoreo/wp-content/uploads/2016/02/home_demo11.jpg',
+								'link' => 'https://bearsthemespremium.com/theme/beoreo/home/home-version-11/',
+								'img' => 'https://bearsthemespremium.com/theme/beoreo/wp-content/uploads/2016/02/home_demo11.jpg',
 								'title' => 'Home Version 11'
 							),
 							array(
-								'link' => 'http://theme.bearsthemes.com/wordpress/beoreo/home/home-version-12/',
-								'img' => 'http://theme.bearsthemes.com/wordpress/beoreo/wp-content/uploads/2016/02/home_demo12.jpg',
+								'link' => 'https://bearsthemespremium.com/theme/beoreo/home/home-version-12/',
+								'img' => 'https://bearsthemespremium.com/theme/beoreo/wp-content/uploads/2016/02/home_demo12.jpg',
 								'title' => 'Home Version 12'
 							),
 							array(
-								'link' => 'http://theme.bearsthemes.com/wordpress/beoreo/home/home-version-13/',
-								'img' => 'http://theme.bearsthemes.com/wordpress/beoreo/wp-content/uploads/2016/02/home_demo13.jpg',
+								'link' => 'https://bearsthemespremium.com/theme/beoreo/home/home-version-13/',
+								'img' => 'https://bearsthemespremium.com/theme/beoreo/wp-content/uploads/2016/02/home_demo13.jpg',
 								'title' => 'Home Version 13'
 							),
 							array(
-								'link' => 'http://theme.bearsthemes.com/wordpress/beoreo/home/home-version-14/',
-								'img' => 'http://theme.bearsthemes.com/wordpress/beoreo/wp-content/uploads/2016/02/home_demo14.jpg',
+								'link' => 'https://bearsthemespremium.com/theme/beoreo/home/home-version-14/',
+								'img' => 'https://bearsthemespremium.com/theme/beoreo/wp-content/uploads/2016/02/home_demo14.jpg',
 								'title' => 'Home Version 14'
 							),
 							array(
-								'link' => 'http://theme.bearsthemes.com/wordpress/beoreo/home/home-version-15/',
-								'img' => 'http://theme.bearsthemes.com/wordpress/beoreo/wp-content/uploads/2016/02/home_demo15.jpg',
+								'link' => 'https://bearsthemespremium.com/theme/beoreo/home/home-version-15/',
+								'img' => 'https://bearsthemespremium.com/theme/beoreo/wp-content/uploads/2016/02/home_demo15.jpg',
 								'title' => 'Home Version 15'
 							),
 							array(
-								'link' => 'http://theme.bearsthemes.com/wordpress/beoreo/home/home-version-16/',
-								'img' => 'http://theme.bearsthemes.com/wordpress/beoreo/wp-content/uploads/2016/02/home_demo16.jpg',
+								'link' => 'https://bearsthemespremium.com/theme/beoreo/home/home-version-16/',
+								'img' => 'https://bearsthemespremium.com/theme/beoreo/wp-content/uploads/2016/02/home_demo16.jpg',
 								'title' => 'Home Version 16'
 							),
 							array(
-								'link' => 'http://theme.bearsthemes.com/wordpress/beoreo/home/home-version-17/',
-								'img' => 'http://theme.bearsthemes.com/wordpress/beoreo/wp-content/uploads/2016/02/home_demo17.jpg',
+								'link' => 'https://bearsthemespremium.com/theme/beoreo/home/home-version-17/',
+								'img' => 'https://bearsthemespremium.com/theme/beoreo/wp-content/uploads/2016/02/home_demo17.jpg',
 								'title' => 'Home Version 17'
 							),
 							array(
-								'link' => 'http://theme.bearsthemes.com/wordpress/beoreo/home/home-version-18/',
-								'img' => 'http://theme.bearsthemes.com/wordpress/beoreo/wp-content/uploads/2016/02/home_demo18.jpg',
+								'link' => 'https://bearsthemespremium.com/theme/beoreo/home/home-version-18/',
+								'img' => 'https://bearsthemespremium.com/theme/beoreo/wp-content/uploads/2016/02/home_demo18.jpg',
 								'title' => 'Home Version 18'
 							),
 						);
