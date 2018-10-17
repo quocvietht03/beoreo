@@ -44,11 +44,6 @@
 							?>
 						</div>
 					<?php } ?>
-					<?php// if (is_active_sidebar("bearstheme-menu-right-sidebar")){ ?>
-						<!--<div class="col-sm-2 col-md-2 right-pcc">
-							<?php// dynamic_sidebar("bearstheme-menu-right-sidebar"); ?>
-						</div>-->
-					<?php //} ?>
 					<!-- End Header Sidebar Top Right -->
 				</div>
 			</div>
