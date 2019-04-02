@@ -15,7 +15,7 @@ $readmore_text = (int) isset($bearstheme_options['tb_blog_post_readmore_text']) 
 					$audio_url = get_post_meta(get_the_ID(), 'tb_post_audio_url', true);
 					if($audio_url) echo do_shortcode('[audio '.$audio_type.'="'.$audio_url.'"][/audio]');
 				} 
-				echo $media_output;
+				echo ''.$media_output;
 			?>
 			<div class="bt-public">
 				<?php 
@@ -34,7 +34,7 @@ $readmore_text = (int) isset($bearstheme_options['tb_blog_post_readmore_text']) 
 				<li><?php beoreo_post_favorite(); ?></li>
 				<li><?php the_terms( get_the_ID(), 'category', '<i class="fa fa-folder-open-o"></i> ', ', ' ); ?></li>
 			</ul>
-			<a class="bt-readmore" href="<?php the_permalink(); ?>"><?php echo $readmore_text; ?></a>
+			<a class="bt-readmore" href="<?php the_permalink(); ?>"><?php echo ''.$readmore_text; ?></a>
 		</div>
 	</div>
 </article>

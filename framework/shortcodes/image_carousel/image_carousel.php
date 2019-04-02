@@ -37,13 +37,13 @@ function beoreo_image_carousel_func($atts, $content = null) {
 						$image_link = (isset($image_links[$key]) && $image_links[$key] != '') ? $image_links[$key] : '#';
 						switch ($click_action) {
 							case 'custom_links':
-								echo '<a href="'.$image_link.'"><img src="'.$attachment[0].'" alt=""/></a>';
+								echo '<a href="'.$image_link.'"><img src="'.$attachment[0].'" alt="'.esc_attr__('thumb', 'beoreo').'"/></a>';
 								break;
 							case 'light_box':
-								echo '<a class="lightbox" data-imagelightbox-thumbnail="" href="'.esc_url($full_img[0]).'"><img src="'.$attachment[0].'" alt=""/></a>';
+								echo '<a class="lightbox" data-imagelightbox-thumbnail="" href="'.esc_url($full_img[0]).'"><img src="'.$attachment[0].'" alt="'.esc_attr__('thumb', 'beoreo').'"/></a>';
 								break;
 							default:
-								echo '<img src="'.$attachment[0].'" alt=""/>';
+								echo '<img src="'.$attachment[0].'" alt="'.esc_attr__('thumb', 'beoreo').'"/>';
 								break;
 						}
 					}

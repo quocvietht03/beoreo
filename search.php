@@ -45,7 +45,7 @@ beoreo_title_bar($tb_show_page_title, $tb_show_page_breadcrumb);
 												<li><?php beoreo_post_favorite(); ?></li>
 												<li><?php the_terms( get_the_ID(), 'category', '<i class="fa fa-folder-open-o"></i> ', ', ' ); ?></li>
 											</ul>
-											<a class="bt-readmore" href="<?php the_permalink(); ?>"><?php echo $readmore_text; ?></a>
+											<a class="bt-readmore" href="<?php the_permalink(); ?>"><?php echo ''.$readmore_text; ?></a>
 										</div>
 									</div>
 									</article>

@@ -79,7 +79,7 @@ class beoreo_Recent_Donation_Widget extends beoreo_Widget {
 									<?php
 									$attachment_image = wp_get_attachment_image_src(get_post_thumbnail_id(get_the_ID()), 'full', false);
 										$image_resize = mr_image_resize($attachment_image[0], 270, 345, true, false);
-										echo '<img class="cropped" src="' . esc_url($image_resize) . '" alt="">';
+										echo '<img class="cropped" src="' . esc_url($image_resize) . '" alt="'.esc_attr__('thumb', 'beoreo').'">';
 									?>
 									<div class="donation-overlay">
 										<div class="donate-meta">
@@ -104,7 +104,7 @@ class beoreo_Recent_Donation_Widget extends beoreo_Widget {
 									<div class="donation-bar">
 										<span style="width: <?php echo esc_attr($width);?>%;"></span>
 									</div>
-									<div class="donation-label"><?php echo $width.'%' ?></div>
+									<div class="donation-label"><?php echo ''.$width.'%' ?></div>
 								</div>
 								<div class="donation-content-inner">
 									<h3 class="donation-title">

@@ -19,7 +19,7 @@ $readmore_text = (int) isset($bearstheme_options['tb_blog_post_readmore_text']) 
 						$attachment_image = wp_get_attachment_image_src($attachment_id, 'full', false);
 						if($attachment_image[0]){
 							$media_output .= '<div class="item bt-gallery '.esc_attr($cl_active).'">
-												<img src="'.esc_url($attachment_image[0]).'" alt="" />
+												<img src="'.esc_url($attachment_image[0]).'" alt="'.esc_attr__('thumb', 'beoreo').'" />
 											</div>';
 						}
 					}
@@ -32,7 +32,7 @@ $readmore_text = (int) isset($bearstheme_options['tb_blog_post_readmore_text']) 
 										</a>
 									</div>';
 				}
-				echo $media_output;
+				echo ''.$media_output;
 			?>
 			<div class="bt-public">
 				<?php 
@@ -51,7 +51,7 @@ $readmore_text = (int) isset($bearstheme_options['tb_blog_post_readmore_text']) 
 				<li><?php beoreo_post_favorite(); ?></li>
 				<li><?php the_terms( get_the_ID(), 'category', '<i class="fa fa-folder-open-o"></i> ', ', ' ); ?></li>
 			</ul>
-			<a class="bt-readmore" href="<?php the_permalink(); ?>"><?php echo $readmore_text; ?></a>
+			<a class="bt-readmore" href="<?php the_permalink(); ?>"><?php echo ''.$readmore_text; ?></a>
 		</div>
 	</div>
 </article>

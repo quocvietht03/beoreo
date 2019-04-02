@@ -15,7 +15,7 @@
 						$attachment_image = wp_get_attachment_image_src($attachment_id, 'full', false);
 						if($attachment_image[0]){
 							$media_output .= '<div class="item bt-gallery '.esc_attr($cl_active).'">
-												<img src="'.esc_url($attachment_image[0]).'" alt="" />
+												<img src="'.esc_url($attachment_image[0]).'" alt="'.esc_attr__('thumb', 'beoreo').'" />
 											</div>';
 						}
 					}
@@ -28,7 +28,7 @@
 										</a>
 									</div>';
 				}
-				echo $media_output;
+				echo ''.$media_output;
 			?>
 			<div class="bt-public">
 				<?php 

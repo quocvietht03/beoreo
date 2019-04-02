@@ -126,7 +126,7 @@ function bearsthemes_blog_masonry_func($atts, $content = null) {
 											$video_url = get_post_meta(get_the_ID(), 'tb_post_video_url', true);
 											if($video_url) {
 												$media_output .= '<div class="bt-overlay">
-																	<a href="'.esc_url($video_url).'" class="html5lightbox" data-group=""  data-thumbnail="" data-width="480" data-height="320" title=""><i class="fa fa-play"></i></a>
+																	<a href="'.esc_url($video_url).'" class="html5lightbox" data-group=""  data-thumbnail="" data-width="480" data-height="320"><i class="fa fa-play"></i></a>
 																</div>
 																';
 											}
@@ -168,7 +168,7 @@ function bearsthemes_blog_masonry_func($atts, $content = null) {
 											}
 											break;
 									}
-									echo $media_output;
+									echo ''.$media_output;
 								?>
 								<div class="bt-public">
 									<?php 
@@ -187,7 +187,7 @@ function bearsthemes_blog_masonry_func($atts, $content = null) {
 									<li><?php beoreo_post_favorite(); ?></li>
 									<li><?php the_terms( get_the_ID(), 'category', '<i class="fa fa-folder-open-o"></i> ', ', ' ); ?></li>
 								</ul>
-								<a class="bt-readmore" href="<?php the_permalink(); ?>"><?php echo $readmore_text; ?></a>
+								<a class="bt-readmore" href="<?php the_permalink(); ?>"><?php echo ''.$readmore_text; ?></a>
 							</div>
 						</div>
 					</article>

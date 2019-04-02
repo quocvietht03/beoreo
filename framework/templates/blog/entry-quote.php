@@ -14,7 +14,7 @@ $readmore_text = (int) isset($bearstheme_options['tb_blog_post_readmore_text']) 
 				if($quote_content) {
 					$media_output .= '<div class="bt-overlay"><blockquote>'.$quote_content.'</blockquote></div>';
 				}
-				echo $media_output;
+				echo ''.$media_output;
 			?>
 			<div class="bt-public">
 				<?php 
@@ -33,7 +33,7 @@ $readmore_text = (int) isset($bearstheme_options['tb_blog_post_readmore_text']) 
 				<li><?php beoreo_post_favorite(); ?></li>
 				<li><?php the_terms( get_the_ID(), 'category', '<i class="fa fa-folder-open-o"></i> ', ', ' ); ?></li>
 			</ul>
-			<a class="bt-readmore" href="<?php the_permalink(); ?>"><?php echo $readmore_text; ?></a>
+			<a class="bt-readmore" href="<?php the_permalink(); ?>"><?php echo ''.$readmore_text; ?></a>
 		</div>
 	</div>
 </article>

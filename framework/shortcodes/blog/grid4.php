@@ -52,7 +52,7 @@
 						$video_url = $gallery = get_post_meta(get_the_ID(), 'tb_post_video_url', true);
 						if($video_url) {
 							$media_output .= '<div class="bt-overlay">
-												<a href="'.esc_url($video_url).'" class="html5lightbox" data-group=""  data-thumbnail="" data-width="480" data-height="320" title=""><i class="fa fa-play"></i></a>
+												<a href="'.esc_url($video_url).'" class="html5lightbox" data-group=""  data-thumbnail="" data-width="480" data-height="320"><i class="fa fa-play"></i></a>
 											</div>
 											';
 						}
@@ -62,13 +62,13 @@
 							$media_output = !empty($thumbnail)?$thumbnail['thumbnail']:'';
 						}
 				}
-				echo $media_output;
+				echo ''.$media_output;
 			?>
 		</div>
 		<div class="bt-content">
 			<h3 class="bt-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
 			<div class="bt-excerpt"><?php echo beoreo_custom_excerpt($excerpt_lenght, $excerpt_more); ?></div>
-			<a href="<?php the_permalink(); ?>"><?php echo $readmore_text; ?></a>
+			<a href="<?php the_permalink(); ?>"><?php echo ''.$readmore_text; ?></a>
 		</div>
 	</div>
 </article>

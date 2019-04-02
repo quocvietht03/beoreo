@@ -10,7 +10,7 @@ $readmore_text = (int) isset($bearstheme_options['tb_blog_post_readmore_text']) 
 				if (has_post_thumbnail()) {
 					$media_output = '<a href="'.get_the_permalink().'">'.get_the_post_thumbnail(get_the_ID(), "full").'</a>';
 				}
-				echo $media_output;
+				echo ''.$media_output;
 			?>
 			<div class="bt-public">
 				<?php 
@@ -29,7 +29,7 @@ $readmore_text = (int) isset($bearstheme_options['tb_blog_post_readmore_text']) 
 				<li><?php beoreo_post_favorite(); ?></li>
 				<li><?php the_terms( get_the_ID(), 'category', '<i class="fa fa-folder-open-o"></i> ', ', ' ); ?></li>
 			</ul>
-			<a class="bt-readmore" href="<?php the_permalink(); ?>"><?php echo $readmore_text; ?></a>
+			<a class="bt-readmore" href="<?php the_permalink(); ?>"><?php echo ''.$readmore_text; ?></a>
 		</div>
 	</div>
 </article>

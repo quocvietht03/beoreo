@@ -23,12 +23,12 @@ class beoreo_PostLove {
 		//update
 		if( isset($_POST['loves_id']) ) {
 			$post_id = str_replace('nectar-love-', '', $_POST['loves_id']);
-			echo $this->beoreo_love_post($post_id, 'update');
+			echo ''.$this->beoreo_love_post($post_id, 'update');
 		}
 		//get
 		else {
 			$post_id = str_replace('nectar-love-', '', $_POST['loves_id']);
-			echo $this->beoreo_love_post($post_id, 'get');
+			echo ''.$this->beoreo_love_post($post_id, 'get');
 		}
 		exit;
 	}
@@ -80,6 +80,6 @@ global $beoreo_post_favorite;
 $beoreo_post_favorite = new beoreo_PostLove();
 function beoreo_post_favorite() {
 	global $beoreo_post_favorite;
-	echo $beoreo_post_favorite->add_love();
+	echo ''.$beoreo_post_favorite->add_love();
 }
 ?>
