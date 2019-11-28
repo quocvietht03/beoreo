@@ -218,10 +218,6 @@ function beoreo_enqueue_scripts() {
 	wp_enqueue_script( 'html5lightbox', beoreo_URI_PATH.'/assets/vendors/html5lightbox/html5lightbox.js', array('jquery'), '', true  );
 	wp_enqueue_script( 'main', beoreo_URI_PATH.'/assets/js/main.js', array('jquery'), '', true  );
 	
-	if(isset($bearstheme_options["smooth_scroll"])&&$bearstheme_options["smooth_scroll"]) {
-		wp_enqueue_script( 'SmoothScroll', beoreo_URI_PATH.'/assets/js/SmoothScroll.js', array('jquery'), '', true  );
-	}
-	
 	$preset_color = (isset($bearstheme_options['preset_color'])&&$bearstheme_options['preset_color'])?$bearstheme_options['preset_color']: 'default';
 	wp_enqueue_style( 'beoreo_preset', beoreo_URI_PATH.'/assets/css/presets/'.$preset_color.'.css', false );
 	if(isset($bearstheme_options["style_selector"])&&$bearstheme_options["style_selector"]) {

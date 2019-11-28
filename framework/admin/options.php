@@ -324,13 +324,6 @@
 				'default'  => false,
 			),
 			array(
-				'id'       => 'smooth_scroll',
-				'type'     => 'switch',
-				'title'    => __( 'Smooth Scroll', 'beoreo' ),
-				'subtitle' => __( 'Enable/Disable smooth scroll.', 'beoreo' ),
-				'default'  => false,
-			),
-			array(
 				'id'       => 'style_selector',
 				'type'     => 'switch',
 				'title'    => __( 'Style Selector', 'beoreo' ),
