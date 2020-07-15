@@ -200,6 +200,7 @@ function beoreo_enqueue_scripts() {
 	global $bearstheme_options;
 	
 	wp_enqueue_style( 'bearstheme-fonts', beoreo_fonts_url(), array(), '1.0.0' );
+	wp_enqueue_style('bearstheme-external-fonts', get_template_directory_uri().'/assets/css/fonts.css', false );
 	wp_enqueue_style( 'bootstrap.min', beoreo_URI_PATH.'/assets/css/bootstrap.min.css', false );
 	wp_enqueue_style('owl-carousel', beoreo_URI_PATH . "/assets/vendors/owl-carousel/owl.carousel.css",array(),"");
 	wp_enqueue_style('slick', beoreo_URI_PATH . "/assets/vendors/slick/slick.css",array(),"");
