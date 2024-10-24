@@ -38,7 +38,8 @@ class beoreo_Widget_Mini_Cart extends WC_Widget {
 		/*if ( apply_filters( 'woocommerce_widget_cart_is_hidden', is_cart() || is_checkout() ) ) {
 			return;
 		}*/
-
+		global $woocommerce;
+		// var_dump($woocommerce->cart->cart_contents);
 		$hide_if_empty = empty( $instance['hide_if_empty'] ) ? 0 : 1;
 
 		$this->widget_start( $args, $instance );
@@ -47,10 +48,10 @@ class beoreo_Widget_Mini_Cart extends WC_Widget {
 			echo '<div class="hide_cart_widget_if_empty">';
 		}
 		
-		echo '<div class="bt-cart-header"><a class="bt-icon" href="javascript:void(0)"><i class="fa fa-shopping-cart"></i><span class="cart_total" ></span></a></div>';
+		echo '<div class="bt-cart-header"><a class="bt-icon" href="/shop/cart/"><i class="fa fa-shopping-cart"></i><span class="cart_total">' . $woocommerce->cart->cart_contents_count . '</span></a></div>';
 		
 		// Insert cart widget placeholder - code in woocommerce.js will update this on page load
-		echo '<div class="bt-cart-content"><h6>'.__('MY SHOPPING CART', 'beoreo').'</h6><div class="widget_shopping_cart_content"></div></div>';
+		// echo '<div class="bt-cart-content"><h6>'.__('MY SHOPPING CART', 'beoreo').'</h6><div class="widget_shopping_cart_content"></div></div>';
 
 		if ( $hide_if_empty ) {
 			echo '</div>';

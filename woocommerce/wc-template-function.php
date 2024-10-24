@@ -17,7 +17,7 @@ if (!function_exists('beoreo_woocommerce_content')) {
 }
 
 // Display 9 products per page.
-add_filter( 'loop_shop_per_page', create_function( '$cols', 'return 9;' ), 20 );
+//add_filter( 'loop_shop_per_page', create_function( '$cols', 'return 9;' ), 20 );
 
 /*
  * Show rating on all products

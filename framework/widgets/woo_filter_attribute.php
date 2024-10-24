@@ -151,7 +151,7 @@ class beoreo_Woo_Filter_Attribute extends WC_Widget {
 			}
 
 			if ( 'dropdown' == $display_type ) {
-
+				
 				// skip when viewing the taxonomy
 				if ( $current_tax && $taxonomy == $current_tax ) {
 
@@ -174,34 +174,6 @@ class beoreo_Woo_Filter_Attribute extends WC_Widget {
 							continue;
 						}
 
-						// Get count based on current view
-						$_products_in_term = wc_get_term_product_ids( $term->term_id, $taxonomy );
-						$option_is_set     = ( isset( $_chosen_attributes[ $taxonomy ] ) && in_array( $term->term_id, $_chosen_attributes[ $taxonomy ]['terms'] ) );
-
-						// If this is an AND query, only show options with count > 0
-						if ( 'and' == $query_type ) {
-
-							$count = sizeof( array_intersect( $_products_in_term, WC()->query->filtered_product_ids ) );
-
-							if ( 0 < $count ) {
-								$found = true;
-							}
-
-							if ( 0 == $count && ! $option_is_set ) {
-								continue;
-							}
-
-						// If this is an OR query, show all options so search can be expanded
-						} else {
-
-							$count = sizeof( array_intersect( $_products_in_term, WC()->query->unfiltered_product_ids ) );
-
-							if ( 0 < $count ) {
-								$found = true;
-							}
-
-						}
-
 						echo '<option value="' . esc_attr( $term->term_id ) . '" ' . selected( isset( $_GET[ 'filter_' . $taxonomy_filter ] ) ? $_GET[ 'filter_' . $taxonomy_filter ] : '' , $term->term_id, false ) . '>' . esc_html( $term->name ) . '</option>';
 					}
 
@@ -217,7 +189,7 @@ class beoreo_Woo_Filter_Attribute extends WC_Widget {
 				}
 
 			} elseif('button' == $display_type) {
-
+				
 				// Button display
 				echo '<ul>';
 
@@ -230,29 +202,6 @@ class beoreo_Woo_Filter_Attribute extends WC_Widget {
 					// skip the term for the current archive
 					if ( $current_term == $term->term_id ) {
 						continue;
-					}
-
-					// If this is an AND query, only show options with count > 0
-					if ( 'and' == $query_type ) {
-
-						$count = sizeof( array_intersect( $_products_in_term, WC()->query->filtered_product_ids ) );
-
-						if ( 0 < $count && $current_term !== $term->term_id ) {
-							$found = true;
-						}
-
-						if ( 0 == $count && ! $option_is_set ) {
-							continue;
-						}
-
-					// If this is an OR query, show all options so search can be expanded
-					} else {
-
-						$count = sizeof( array_intersect( $_products_in_term, WC()->query->unfiltered_product_ids ) );
-
-						if ( 0 < $count ) {
-							$found = true;
-						}
 					}
 
 					$arg = 'filter_' . sanitize_title( $instance['attribute'] );
@@ -352,7 +301,7 @@ class beoreo_Woo_Filter_Attribute extends WC_Widget {
 
 					echo '<li ' . $class . '>';
 
-					echo ( $count > 0 || $option_is_set ) ? '<a class="'.esc_attr($term->slug).'" href="' . esc_url( apply_filters( 'woocommerce_layered_nav_link', $link ) ) . '"></a>' : '<span></span>';
+					echo '<a class="'.esc_attr($term->slug).'" href="' . esc_url( apply_filters( 'woocommerce_layered_nav_link', $link ) ) . '"></a>';
 
 					echo '</li>';
 
@@ -375,29 +324,6 @@ class beoreo_Woo_Filter_Attribute extends WC_Widget {
 						continue;
 					}
 
-					// If this is an AND query, only show options with count > 0
-					if ( 'and' == $query_type ) {
-
-						$count = sizeof( array_intersect( $_products_in_term, WC()->query->filtered_product_ids ) );
-
-						if ( 0 < $count && $current_term !== $term->term_id ) {
-							$found = true;
-						}
-
-						if ( 0 == $count && ! $option_is_set ) {
-							continue;
-						}
-
-					// If this is an OR query, show all options so search can be expanded
-					} else {
-
-						$count = sizeof( array_intersect( $_products_in_term, WC()->query->unfiltered_product_ids ) );
-
-						if ( 0 < $count ) {
-							$found = true;
-						}
-					}
-
 					$arg = 'filter_' . sanitize_title( $instance['attribute'] );
 
 					$current_filter = ( isset( $_GET[ $arg ] ) ) ? explode( ',', $_GET[ $arg ] ) : array();
@@ -495,13 +421,9 @@ class beoreo_Woo_Filter_Attribute extends WC_Widget {
 
 					echo '<li ' . $class . '>';
 
-					echo ( $count > 0 || $option_is_set ) ? '<a href="' . esc_url( apply_filters( 'woocommerce_layered_nav_link', $link ) ) . '">' : '<span>';
+					echo '<a href="' . esc_url( apply_filters( 'woocommerce_layered_nav_link', $link ) ) . '">' . $term->name . '</a>';
 
-					echo ''.$term->name;
-
-					echo ( $count > 0 || $option_is_set ) ? '</a>' : '</span>';
-
-					echo ' <span class="count">(' . $count . ')</span></li>';
+					echo '</li>';
 
 				}
 

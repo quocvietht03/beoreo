@@ -1,12 +1,12 @@
 <?php
 // Verify purchase code
-require_once get_template_directory().'/framework/VerifyTheme.php';
-if(class_exists('VerifyTheme')){
-	function verifytheme_init(){
-		$VerifyTheme = new VerifyTheme();
-	}
-	add_action( 'after_setup_theme', 'verifytheme_init' );
-}
+// require_once get_template_directory().'/framework/VerifyTheme.php';
+// if(class_exists('VerifyTheme')){
+// 	function verifytheme_init(){
+// 		$VerifyTheme = new VerifyTheme();
+// 	}
+// 	add_action( 'after_setup_theme', 'verifytheme_init' );
+// }
 /* Metaboxes */
 require_once beoreo_ABS_PATH_FR.'/meta-boxes/meta-boxes.php';
 /* Load Shortcodes Function */

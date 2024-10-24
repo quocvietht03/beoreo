@@ -155,22 +155,22 @@
 		function BearsthemesOpenMiniSearchSidebar() {
 			$('.bt-search-sidebar > a').on('click', function() {
 				$(this).toggleClass('active');
-				$('.bt_widget_mini_cart .bt-cart-header > a.bt-icon').removeClass('active');
+				// $('.bt_widget_mini_cart .bt-cart-header > a.bt-icon').removeClass('active');
 				$('#bt_header .widget_search').toggle();
-				$('.bt_widget_mini_cart .bt-cart-content').hide();
+				// $('.bt_widget_mini_cart .bt-cart-content').hide();
 			});
 		}
 		BearsthemesOpenMiniSearchSidebar();
 		/* Open the hide mini cart */
-		function BearsthemesOpenMiniCartSidebar() {
-			$('.bt_widget_mini_cart .bt-cart-header > a.bt-icon').on('click', function() {
-				$(this).toggleClass('active');
-				$('.bt-search-sidebar > a').removeClass('active');
-				$('.bt_widget_mini_cart .bt-cart-content').toggle();
-				$('#bt_header .widget_search').hide();
-			});
-		}
-		BearsthemesOpenMiniCartSidebar();
+		// function BearsthemesOpenMiniCartSidebar() {
+		// 	$('.bt_widget_mini_cart .bt-cart-header > a.bt-icon').on('click', function() {
+		// 		$(this).toggleClass('active');
+		// 		$('.bt-search-sidebar > a').removeClass('active');
+		// 		$('.bt_widget_mini_cart .bt-cart-content').toggle();
+		// 		$('#bt_header .widget_search').hide();
+		// 	});
+		// }
+		// BearsthemesOpenMiniCartSidebar();
 		/* Open the hide menu canvas */
 		function BearsthemesOpenMenuSidebar() {
 			$('.bt-menu-sidebar > a').on('click', function() {
@@ -383,6 +383,17 @@
 			}
 		}
 		BearsthemesCountUp();
+		
+		/* Copyright Current Year */
+		function BearsthemesCopyrightCurrentYear() {
+			var searchTerm = '{Year}',
+				replaceWith = new Date().getFullYear();
+			
+			$('.bt-copyright').each( function() {
+				this.innerHTML = this.innerHTML.replace(searchTerm, replaceWith);
+			});
+		}
+		BearsthemesCopyrightCurrentYear();
 
 		/*Masonry*/
 		if($('.grid-masonry').length > 0) {
@@ -442,23 +453,23 @@
 			$('body').find('input[name="update_cart"]').prop('disabled', false);
 		}
 		/* Add Product Quantity Up Down icon */
-    $('form.cart .quantity, .product-quantity .quantity').each(function() {
-        $(this).prepend('<span class="qty-minus"><i class="fa fa-minus"></i></span>');
-        $(this).append('<span class="qty-plus"><i class="fa fa-plus"></i></span>');
-    });
-    /* Plus Qty */
-    $(document).on('click', '.qty-plus', function() {
-        var parent = $(this).parent();
-        $('input.qty', parent).val( parseInt($('input.qty', parent).val()) + 1);
-				bears_visible_btn_update_cart();
-    })
-    /* Minus Qty */
-    $(document).on('click', '.qty-minus', function() {
-        var parent = $(this).parent();
-        if( parseInt($('input.qty', parent).val()) > 1) {
-            $('input.qty', parent).val( parseInt($('input.qty', parent).val()) - 1);
-						bears_visible_btn_update_cart();
-        }
-    })
+		$('form.cart .quantity, .product-quantity .quantity').each(function() {
+			$(this).prepend('<span class="qty-minus"><i class="fa fa-minus"></i></span>');
+			$(this).append('<span class="qty-plus"><i class="fa fa-plus"></i></span>');
+		});
+		/* Plus Qty */
+		$(document).on('click', '.qty-plus', function() {
+			var parent = $(this).parent();
+			$('input.qty', parent).val( parseInt($('input.qty', parent).val()) + 1);
+					bears_visible_btn_update_cart();
+		})
+		/* Minus Qty */
+		$(document).on('click', '.qty-minus', function() {
+			var parent = $(this).parent();
+			if( parseInt($('input.qty', parent).val()) > 1) {
+				$('input.qty', parent).val( parseInt($('input.qty', parent).val()) - 1);
+							bears_visible_btn_update_cart();
+			}
+		})
 	});
 })(jQuery);
