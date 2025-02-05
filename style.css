@@ -3602,7 +3602,9 @@ ul.bt-list-style1 > li > i, ol.bt-list-style1 > li > i {
   -moz-transition:all 0.4s;
   -o-transition:all 0.4s;
   transition:all 0.4s;
-  display:block;
+  display:flex;
+  align-items: center;
+  justify-content: center;
   width:100%;
   height:100%;
   font-size:24px;
