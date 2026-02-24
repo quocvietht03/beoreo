@@ -18,24 +18,36 @@ Text Domain: beoreo
 5. Navigate to Appearance > Theme Options in your admin panel and customize to taste.
 
 == Changelog ==
+= 2.1 =
+* Release: Feb 24, 2026
+- Compatible Latest WP and Plugins
+- Update Outdated templates Woocommerce
+- Fixed VC Extra fields type: taxonomy, layout
+- Fixed many issues...
+
+= 2.0 =
+* Released: Dec 18, 2025
+- Compatible Latest WP and Plugins
+- Fix small issues ...
+
 = 1.5 =
-* Released: October 18, 2018
-	- Update module import demo.
-	- Update oldest Woocomerce Template.
-	- Fix small issues ...
+* Released: Oct 18, 2018
+- Update module import demo.
+- Update oldest Woocomerce Template.
+- Fix small issues ...
 
 = 1.4 =
-* Released: April 09, 2018
+* Released: Apr 09, 2018
 	- Update oldest Woocomerce Template.
 	- Fix small issues ...
 
 = 1.3 =
-* Released: November 15, 2017
+* Released: Now 15, 2017
 	- Fix add extra param Visual Composer.
 	- Update oldest Woocomerce Template.
 	- Fix small issues ...
 
 = 1.0 =
-* Released: June 30, 2016
+* Released: Jun 30, 2016
 
 Initial release
